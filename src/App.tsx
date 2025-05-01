@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router';
 import Navbar from './components/Navbar/Index';
 import Bookmark from './pages/Bookmark';
 
+
 const Index = lazy(() => import('./pages/Index'));
 const Details = lazy(() => import('./pages/Details'));
 

@@ -90,6 +90,26 @@ textarea:not([rows]) {
   margin-top: 8px!important;
 }
 
+.d_flex {
+  display: flex;
+}
+
+.align_items_center {
+  align-items: center;
+}
+
+.justify_content_center {
+  justify-content: center;
+}
+
+.min_h_screen {
+  min-height: 100vh;
+}
+
+.w_full {
+  width: 100%;
+}
+
 .container {
   max-width: 1300px;
   width: 100%;
