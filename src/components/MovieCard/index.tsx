@@ -33,7 +33,7 @@ function MovieCardMeta({ children }: Props) {
 
 function MovieCardPrimaryButton({ to, children }: Props & { to: string }) {
   return (
-    <RouterLink to={to} className='btn btn-primary'>
+    <RouterLink to={to} className='btn btn_primary'>
       {children}
     </RouterLink>
   );
