@@ -1,0 +1,59 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.poster {
+  display: block;
+  max-width: 100%;
+  position: relative;
+}
+
+.poster .aspect_ratio {
+  padding-bottom: 150%;
+}
+
+.poster img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.body {
+  display: flex;
+  margin-top: 16px;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #111;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+  max-width: 100%;
+  word-break: break-word;
+  word-wrap: break-word;
+}
+
+.meta {
+  font-size: 14px;
+  color: #555;
+  margin: 0 0 8px;
+}
+
+.action_btn {
+  background-color: #e01b24;
+  color: #fff;
+}
+
+.action_btn:hover {
+  background-color: #c1171f;
+}
