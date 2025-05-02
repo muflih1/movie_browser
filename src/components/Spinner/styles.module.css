@@ -5,6 +5,9 @@
   background-size: 200% 100%;
   animation: linearSpin 1.5s linear infinite;
   border-radius: 2px;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 @keyframes linearSpin {

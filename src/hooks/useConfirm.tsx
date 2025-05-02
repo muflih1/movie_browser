@@ -31,7 +31,7 @@ export default function useConfirm(title: string, message: string) {
       <Dialog.Title>{title}</Dialog.Title>
       <Dialog.Message>{message}</Dialog.Message>
       <Dialog.Footer>
-        <Dialog.Button type='secondry' onPress={handleCancel}>
+        <Dialog.Button type='secondary' onPress={handleCancel}>
           Cancel
         </Dialog.Button>
         <Dialog.Button type='primary' onPress={handleCinfirm}>

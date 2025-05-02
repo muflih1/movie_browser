@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <header className={styles.root}>
       <div className={styles.container}>
-        <Link to={'/'} className={styles.logo}>MoviesDB</Link>
+        <Link to={'/'} className={styles.logo}>MovieDB</Link>
         <Link to={'/bookmarks'} className={clsx('btn', styles.btn)}>
           <BookmardIcon className={styles.icon} />
           <span>Bookmarks</span>

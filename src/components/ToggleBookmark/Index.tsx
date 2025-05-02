@@ -15,8 +15,9 @@ export default function ToggleBookmark({ movie }: { movie: Movie }) {
         setForceReRender(v => v + 1);
       }}
       className={'btn btn_danger mt_md'}
+      title='Remove from bookmarks'
     >
-      Remove
+      Unsave
     </button>
   ) : (
     <button
@@ -25,6 +26,7 @@ export default function ToggleBookmark({ movie }: { movie: Movie }) {
         setForceReRender(v => v + 1);
       }}
       className='btn btn_primary mt_md'
+      title='Save to bookmarks'
     >
       Save
     </button>

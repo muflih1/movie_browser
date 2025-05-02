@@ -36,7 +36,6 @@ class BookmarksStore {
   }
 
   subscribe(callback: () => void) {
-    console.log(callback)
     this._subscribers.add(callback);
     return () => this._subscribers.delete(callback);
   }

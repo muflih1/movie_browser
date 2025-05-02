@@ -41,7 +41,7 @@ function AlertDialogActionButton({
   type = 'primary',
 }: React.PropsWithChildren<{
   onPress: React.MouseEventHandler<HTMLButtonElement>;
-  type: 'secondry' | 'primary';
+  type: 'secondary' | 'primary';
 }>) {
   return (
     <button
