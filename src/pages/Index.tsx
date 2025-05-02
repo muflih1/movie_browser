@@ -20,7 +20,7 @@ export default function Index() {
       e.preventDefault();
       if (query.trim() === '') return;
       setMovies([]);
-      navigate(`/?q=${encodeURIComponent(query)}`);
+      navigate(`/?q=${encodeURIComponent(query).replace(/%20/g, '+')}`);
     },
     [query, navigate]
   );
